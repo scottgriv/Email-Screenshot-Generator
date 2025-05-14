@@ -32,7 +32,7 @@
       <div class="header-panel panel">
         <h1>Email Screenshot Generator</h1>
         <br>
-        <p>Generate beautiful screenshots of your emails for presentations, documentation, or sharing. Upload EML files, preview styled emails, and export them as clean PNG images.<br><br>Compose on the left, preview on the right, then download a clean image of your email.</p>
+        <p>Generate beautiful screenshots of your emails for presentations, documentation, or sharing. Upload EML files, preview styled emails, and export them as clean PNG images.<br><br>Compose on the left, preview on the right, then download a clean image of your email (HTML is supported in the Body!).</p>
       </div>
 
       <!-- Desktop Icons Right -->
@@ -176,11 +176,11 @@
               <span class="value">{{ emailFields.to }}</span>
             </div>
             <div v-if="emailFields.cc" class="header-row">
-              <span class="label">CC:</span>
+              <span class="label">Cc:</span>
               <span class="value">{{ emailFields.cc }}</span>
             </div>
             <div v-if="emailFields.bcc" class="header-row">
-              <span class="label">BCC:</span>
+              <span class="label">Bcc:</span>
               <span class="value">{{ emailFields.bcc }}</span>
             </div>
             <div class="header-row">

@@ -1,221 +1,117 @@
 <!-- Begin README -->
 
 <div align="center">
-    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
-        <img src="./docs/images/banner_large-silver.png" /> <!-- Add a specific width/height for your icon here, ex. width="150" height="150"-->
+    <a href="https://scottgriv.github.io/Binary-Converter" target="_blank">
+        <img src="./docs/images/icon.png" width="200" height="200"/>
     </a>
 </div>
 <br>
 <p align="center">
-    <a href="https://daringfireball.net/projects/markdown/"><img src="https://img.shields.io/badge/Markdown-1.0.1-000000?style=for-the-badge&logo=markdown" alt="Markdown Badge" /></a>
+    <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue.js-3.2.13-4FC08D?style=for-the-badge&logo=vue.js" alt="Vue.js Badge" /></a>
+    <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/JavaScript-3.8.3-F7DF1E?style=for-the-badge&logo=javascript" alt="JavaScript Badge" /></a>
+    <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Node.js-18.18.2-339933?style=for-the-badge&logo=node.js" alt="Node.js Badge" /></a>
     <br>
     <a href="https://github.com/scottgriv"><img src="https://img.shields.io/badge/github-follow_me-181717?style=for-the-badge&logo=github&color=181717" alt="GitHub Badge" /></a>
     <a href="mailto:scott.grivner@gmail.com"><img src="https://img.shields.io/badge/gmail-contact_me-EA4335?style=for-the-badge&logo=gmail" alt="Email Badge" /></a>
     <a href="https://www.buymeacoffee.com/scottgriv"><img src="https://img.shields.io/badge/buy_me_a_coffee-support_me-FFDD00?style=for-the-badge&logo=buymeacoffee&color=FFDD00" alt="BuyMeACoffee Badge" /></a>
     <br>
-    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/releases" target="_blank"><img src="https://img.shields.io/badge/PRG-1.1.1-6236FF?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNGRkZGRkYiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="PRG Version Badge" /></a>
-    <a href="https://prgoptimized.netlify.app" target="_blank">
-    <img src="https://img.shields.io/badge/PRG-Official_Website-680F7F?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNGRkZGRkYiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="PRG Website" /></a>
+    <a href="https://github.com/scottgriv/Email-Screenshot-Generator/actions/workflows/gh-pages.yml" target="_blank"><img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/scottgriv/Binary-Converter/gh-pages.yml?style=for-the-badge&logo=github&label=GitHub%20Pages"></a>
     <a href="https://prgportfolio.com" target="_blank"><img src="https://img.shields.io/badge/PRG-Silver Project-C0C0C0?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNDMEMwQzAiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Silver" /></a>
 </p>
 
 ---------------
 
-<h1 align="center"><img src="https://placehold.co/22x22/C0C0C0/C0C0C0"> PRG Silver Tier Template</img></h1>
+<h1 align="center">Email Screenshot Generator</h1>
 
-<!-- Remove this block before you commit your README - this is for template reference purposes only -->
+Generate beautiful screenshots of your emails for presentations, documentation, or sharing. Upload EML files, preview styled emails, and export them as clean PNG images.
+- Built using **Vue.js**.
+- View a demo of the project on GitHub Pages **[Here](https://scottgriv.github.io/Email-Screenshot-Generator)**.
+
 <div align="center">
-<table>
-    <tr>
-        <td>
-            <div align="center">
-                <h3 align="center">What is this Template for?</h3>
-                <table>
-                    <tr>
-                        <td align="center">
-                            <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines"><img src="./docs/images/icon-rounded.png" width="100"></a>
-                            <br>
-                            <p>This Template is part of the <br><b><a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines">Personal Repository Guidelines (PRG)</a></b><br> repository categorization and guideline framework.</p>
-                            <b>Visit the PRG Repository<br>to get started with PRG today.</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center">
-                            <a href="https://prgoptimized.netlify.app"><img src="./docs/images/icon-website-rounded.png" width="100"></a>
-                            <br>
-                            <p>Visit <b><a href="https://prgoptimized.netlify.app">The Official PRG Website</a></b><br> for more information.</p>
-                            <b>Submit a pull request to add your<br>PRG Portfolio to the PRG Showcase.</b>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </td>
-        <td>
-            <div align="center">
-                <h3 align="center">Looking for other Tier Templates?</h3>
-                <table>
-                    <tr>
-                        <td align="center">
-                            <a href="https://github.com/scottgriv/PRG-Platinum-Tier-Template"><img src="./docs/images/icon-platinum-rounded.png" width="100"></a>
-                            <br>
-                            <p><b><a href="https://github.com/scottgriv/PRG-Platinum-Tier-Template">Platinum Tier Template</a></b></p>
-                        </td>
-                        <td align="center">
-                            <a href="https://github.com/scottgriv/PRG-Gold-Tier-Template"><img src="./docs/images/icon-gold-rounded.png" width="100"></a>
-                            <br>
-                            <p><b><a href="https://github.com/scottgriv/PRG-Gold-Tier-Template">Gold Tier Template</a></b></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center">
-                        <p align="center"><i>You are here</i></p>
-                            <a href="https://github.com/scottgriv/PRG-Silver-Tier-Template"><img src="./docs/images/icon-silver-rounded.png" width="100"></a>
-                            <br>
-                            <p><b><a href="https://github.com/scottgriv/PRG-Silver-Tier-Template">Silver Tier Template</a></b></p>
-                        </td>
-                        <td align="center">
-                            <a href="https://github.com/scottgriv/PRG-Bronze-Tier-Template"><img src="./docs/images/icon-bronze-rounded.png" width="100"></a>
-                            <br>
-                            <p><b><a href="https://github.com/scottgriv/PRG-Bronze-Tier-Template">Bronze Tier Template</a></b></p>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </td>
-    </tr>
-</table>
+    <a href="https://scottgriv.github.io/Email-Screenshot-Generator" target="_blank">
+        <img src="./docs/images/demo.png" style="width: 80%;"/>
+    </a>
+    <br>
+    <i>Application Preview</i>
 </div>
-<!-- End Remove Block -->
-
-> [!NOTE]
-> I will be using examples from my project [River Charts](https://github.com/scottgriv/River-Charts) for this `README`.
-
-- The description should be a short paragraph describing what your project is and what it does.
-- This should be the first section after the badges.
-    - e.g. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
-- Add **screenshots** of your project below the description and throughout the rest of the README as needed.
-    - This is optional, but highly recommended especially for **Gold** projects.
-    - Animations in the form of GIFs are also a great way to showcase your project.
-
-> [!WARNING]
-> Be sure to change the [PRG Connection File](PRG.md) **Repository Tier** parameter from **Optimized** to **Bronze** in order to correctly categorize this repository.
-> All templates are currently set to the uncategorized "**Optimized**" option, so be sure to change this.
-
-> [!WARNING]
-> Be sure to change or remove the [.gitattributes](.gitattributes) file from this repository.
-> It's used to classify this template repository as a Markdown file on GitHub only, and is not needed.
 
 ---------------
 
 ## Table of Contents
 
+- [How This Works](#how-this-works)
 - [Getting Started](#getting-started)
-    - [Dependencies](#dependencies)
-    - [Configuration](#configuration)
-    - [Installation](#installation)
-    - [Deployment](#deployment)
-- [Specific Project Sections](#specific-project-sections)
 - [Resources](#resources)
 - [License](#license)
-    -[MIT](#mit)
-    -[GNU](#gnu)
-    -[The Unlicense](#the-unlicense)
 - [Credits](#credits)
+
+## How This Works
+
+1. Enter your email information in the left panel (top on mobile) and view the preview of it in the right panel (bottom on mobile).
+2. Click the "Generate Email Image" button to create a screenshot of your email (`.png` format).
+3. Click "Reset Fields" to reset all fields and image to start again.
+
+**Optionally:**
+1. Upload an EML file to pre-fill the email information (Note: images will not be exported due to CORS policy).
+2. Click the "Upload Image" button to upload an image to use as your sender's profile picture.
+3. Change your preferred font and font size using the dropdowns on the bottom of the left panel (top on mobile).
+4. Toggle between light and dark mode using the toggle switch in the top right corner of the page.
+5. Share the web app with others using the "Share" button in the top right corner of the page.
 
 ## Getting Started
 
-This section should contain a list of steps to get your project up and running.
-- You can break this section down into further subsections if you want (such as below: Dependencies, Configuration, Running Locally, Deployment, etc.).
-- Otherwise, you can just include a list of steps to get your project up and running under Getting Started.
+1. Project setup
+```
+npm install
+```
 
-### Dependencies
+2. Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-- This section should contain a list of dependencies for your project.
+3. Compiles and minifies for production
+```
+npm run build
+```
 
-### Configuration
-
-- This section should contain a list of steps to configure your project.
-
-### Installation
-
-- This section should contain a list of steps to install your project.
-- Utilize code blocks to show the commands needed to run your project.
-- e.g.
-    1. Clone this repository.
-    2. Create a virtual environment: `python -m venv venv`.
-    3. Install the dependencies.
-    4. Run the application: 
-        ```bash
-        python manage.py runserver
-        ```
-
-### Deployment
-
-- This section should contain a list of steps to deploy your project.
-
-## Specific Project Sections
-
-There should be a number of sections here that correspond to important aspects of your project.
-- Do not name this section "Specific Project Sections".
-- e.g. "API", "Database", "Deployment", "Testing", etc.
+4. Lints and fixes files
+```
+npm run lint
+```
 
 ## Resources
 
-This section should contain a list of resources that you used to create your project.
-
-Below are some external resources I found helpful when creating **My Project**:
-
-- [Python](https://www.python.org/) - An interpreted, high-level and general-purpose programming language.
-- [Plotly](https://plotly.com/python/) - A Python graphing library that makes interactive, publication-quality graphs online.
-- [Django](https://www.djangoproject.com/) - A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
-- [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
+- [Vue.js](https://vuejs.org/) - A progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+- [Configuration Reference](https://cli.vuejs.org/config/) - Vue CLI configuration reference.
+- [JavaScript](https://www.javascript.com/) - A lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
+- [Node.js](https://nodejs.org/en/) - A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [Less](http://lesscss.org/) - A dynamic preprocessor style sheet language that can be compiled into Cascading Style Sheets (CSS) and run on the client-side or server-side.
+- [Binary Number System Tutorial ](https://www.mathsisfun.com/binary-number-system.html) - A way of writing numbers using only two digits: 0 and 1 (the stuff computers use).
+- [Binary Code](https://en.wikipedia.org/wiki/Binary_code) - A binary code represents text, computer processor instructions, or any other data using a two-symbol system.
+- [ASCII](https://en.wikipedia.org/wiki/ASCII) - ASCII, an acronym for American Standard Code for Information Interchange, is a character encoding standard for electronic communication.
+- [Unicode](https://en.wikipedia.org/wiki/Unicode) - Unicode is a text encoding standard maintained by the Unicode Consortium designed to support the use of text written in all of the world's major writing systems.
+- [Vite Configuration Reference](https://vite.dev/config/) - Vite is a fast build tool that focuses on speed and performance, providing a modern development experience for web applications.
+- [Vue CLI](https://cli.vuejs.org/) - Vue CLI is a standard tooling for Vue.js development.
 
 ## License
 
-This section should contain the license for your project. It should include a link to your actual license file inside your repository, and a link to [Choose an open source license](https://choosealicense.com) for reference.
-
-> [!IMPORTANT]
-> Use the [docs/LICENSE/](docs/LICENSE/) directory to pick amongst a few popular license files for your project.
-> You can also visit [Choose an open source license](https://choosealicense.com) to pick your own that's not included with this template.
-> If you don't include a `LICENSE` file, see what happens [here](https://choosealicense.com/no-permission/).
-> For a zero restriction license, choose [The Unlicense](https://choosealicense.com/licenses/unlicense/).
-
-> [!WARNING]
-> Be sure to remove the [docs/LICENSE/](docs/LICENSE/) directory from this repository when you're done picking your license.
-> Be sure to include your [LICENSE](LICENSE) file in the `root` of your repository and change the link below to point towards it.
-
-*Examples:*
-
-### MIT
-
 This project is released under the terms of the **MIT License**, which permits use, modification, and distribution of the code, subject to the conditions outlined in the license.
 - The [MIT License](https://choosealicense.com/licenses/mit/) provides certain freedoms while preserving rights of attribution to the original creators.
-- For more details and to understand all requirements and conditions, see the [LICENSE](docs/LICENSE/MIT/LICENSE) file in this repository.
-
-### GNU
-
-This project is released under the terms of the **GNU General Public License, version 3 (GNU GPLv3)**, which ensures that derivatives of the software remain open source.
-- The [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) is a "copyleft" license, ensuring that derivatives of the software remain open source and under the GPL.
-- For more details and to understand all requirements and conditions, see the [LICENSE](docs/LICENSE/GNU/LICENSE) file in this repository.
-
-### The Unlicense
-
-This project is released under the terms of **The Unlicense**, which allows you to use, modify, and distribute the code as you see fit. 
-- [The Unlicense](https://choosealicense.com/licenses/unlicense/) removes traditional copyright restrictions, giving you the freedom to use the code in any way you choose.
-- For more details and to understand all requirements and conditions, see the [LICENSE](docs/LICENSE/Unlicense/LICENSE) file in this repository.
+- For more details, see the [LICENSE](LICENSE) file in this repository. in this repository.
 
 ## Credits
 
 **Author:** [Scott Grivner](https://github.com/scottgriv) <br>
 **Email:** [scott.grivner@gmail.com](mailto:scott.grivner@gmail.com) <br>
 **Website:** [scottgrivner.dev](https://www.scottgrivner.dev) <br>
-**Reference:** [Main Branch](https://github.com/scottgriv/PRG-Silver-Tier-Template) <br>
+**Reference:** [Main Branch](https://github.com/scottgriv/Email-Screenshot-Generator) <br>
 
 ---------------
 
 <div align="center">
-    <a href="https://github.com/scottgriv/PRG-Silver-Tier-Template" target="_blank">
-        <img src="./docs/images/icon-silver-rounded.png" width="100" height="100"/>
+    <a href="https://scottgrivner.dev" target="_blank">
+        <img src="./docs/images/footer.png" width="100" height="100"/>
     </a>
 </div>
 
