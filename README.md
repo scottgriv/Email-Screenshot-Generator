@@ -58,7 +58,7 @@ Generate beautiful screenshots of your emails for presentations, documentation, 
 4. Toggle between light and dark mode using the toggle switch in the top right corner of the page.
 5. Share the web app with others using the "Share" button in the top right corner of the page.
 6. The Body support HTML tags, so you can add links, images, and other HTML elements to your email body.
-7. All of the fields are optional and can be left blank if not needed, they will not be included in the email preview.
+7. Cc and Bcc can be left blank if not needed, they will not be included in the email preview as labels if left blank.
 
 ## Getting Started
 
