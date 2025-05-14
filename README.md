@@ -29,7 +29,7 @@ Generate beautiful screenshots of your emails for presentations, documentation, 
 
 <div align="center">
     <a href="https://scottgriv.github.io/Email-Screenshot-Generator" target="_blank">
-        <img src="./docs/images/demo.png" style="width: 80%;"/>
+        <img src="./docs/images/demo_light.png" style="width: 80%;"/>
     </a>
     <br>
     <i>Application Preview</i>
