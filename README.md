@@ -7,9 +7,9 @@
 </div>
 <br>
 <p align="center">
-    <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue.js-3.2.13-4FC08D?style=for-the-badge&logo=vue.js" alt="Vue.js Badge" /></a>
+    <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue.js-3.5.13-4FC08D?style=for-the-badge&logo=vue.js" alt="Vue.js Badge" /></a>
     <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/JavaScript-3.8.3-F7DF1E?style=for-the-badge&logo=javascript" alt="JavaScript Badge" /></a>
-    <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Node.js-18.18.2-339933?style=for-the-badge&logo=node.js" alt="Node.js Badge" /></a>
+    <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Node.js-18.19-339933?style=for-the-badge&logo=node.js" alt="Node.js Badge" /></a>
     <br>
     <a href="https://github.com/scottgriv"><img src="https://img.shields.io/badge/github-follow_me-181717?style=for-the-badge&logo=github&color=181717" alt="GitHub Badge" /></a>
     <a href="mailto:scott.grivner@gmail.com"><img src="https://img.shields.io/badge/gmail-contact_me-EA4335?style=for-the-badge&logo=gmail" alt="Email Badge" /></a>

@@ -198,11 +198,31 @@
     </div>
 
     <!-- FOOTER -->
-<div class="footer">
-  Copyright &copy; {{ currentYear }} Scott Grivner
-  <br />
-  <img src="../src/assets/icon-rounded.png" alt="Logo" style="width:40px; margin-top: 8px; border-radius: 8px;" />
-</div>
+    <div class="footer">
+      Copyright &copy; {{ currentYear }} Scott Grivner
+      <br />
+      <a
+        href="https://github.com/scottgriv/Email-Screenshot-Generator"
+        target="_blank"
+        rel="noopener"
+        style="display: inline-block; transition: transform 0.2s ease;"
+        onmouseover="this.style.transform='translateY(-3px)'"
+        onmouseout="this.style.transform='translateY(0)'"
+      >
+        <img
+          src="../src/assets/icon-rounded.png"
+          alt="Logo"
+          style="
+            width: 40px;
+            margin-top: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            border: 1px solid #FFFFFF;"
+        />
+      </a>
+    </div>
+
+
   </div>
 </template>
 
@@ -429,7 +449,7 @@ async function onEmlUpload(e) {
 .app-container.light-mode {
   --bg:#f0f0f0;--panel-bg:#fff;--text:#000;
   --input-bg:#fff;--input-text:#000;
-  --btn-hover:#e2e8f0;--border:rgba(0,0,0,0.1);
+  --btn-hover: #d1d5db;
   --shadow:0 2px 6px rgba(0,0,0,0.1);
 }
 .app-container.dark-mode {

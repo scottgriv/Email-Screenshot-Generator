@@ -15,7 +15,7 @@ This file is used to connect this repository to the **PRG** project categorizati
 **Repository Tier:** Silver <br>
 **Technology:** Vue.js, JavaScript, Vite <br>
 **Category:** Web Application <br>
-**Order:** 5 <br>
+**Order:** 4 <br>
 
 ## Parameters
 
