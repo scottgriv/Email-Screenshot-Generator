@@ -23,7 +23,7 @@
 
 <h1 align="center">Email Screenshot Generator</h1>
 
-Generate beautiful screenshots of your emails for presentations, documentation, or sharing. Upload EML files, preview styled emails, and export them as clean PNG images.
+Generate beautiful screenshots of your emails for presentations, documentation, or sharing. Upload EML files, use HTML tags in the body, preview styled emails, and export them as clean PNG images.
 - Built using **Vue.js**.
 - View a demo of the project on GitHub Pages **[Here](https://scottgriv.github.io/Email-Screenshot-Generator)**.
 
@@ -57,6 +57,8 @@ Generate beautiful screenshots of your emails for presentations, documentation, 
 3. Change your preferred font and font size using the dropdowns on the bottom of the left panel (top on mobile).
 4. Toggle between light and dark mode using the toggle switch in the top right corner of the page.
 5. Share the web app with others using the "Share" button in the top right corner of the page.
+6. The Body support HTML tags, so you can add links, images, and other HTML elements to your email body.
+7. All of the fields are optional and can be left blank if not needed, they will not be included in the email preview.
 
 ## Getting Started
 

@@ -31,8 +31,7 @@
       <!-- Title Panel -->
       <div class="header-panel panel">
         <h1>Email Screenshot Generator</h1>
-        <br>
-        <p>Generate beautiful screenshots of your emails for presentations, documentation, or sharing. Upload EML files, preview styled emails, and export them as clean PNG images.<br><br>Compose on the left, preview on the right, then download a clean image of your email (HTML is supported in the Body!).</p>
+        <p>Generate beautiful screenshots of your emails for presentations, documentation, or sharing.<br>Upload EML files, use HTML tags in the body, preview styled emails, and export them as clean PNG images.<br>Compose on the left, preview on the right, then download a clean image of your email.</p>
       </div>
 
       <!-- Desktop Icons Right -->
@@ -199,7 +198,11 @@
     </div>
 
     <!-- FOOTER -->
-    <div class="footer">Copyright &copy; {{ currentYear }} Scott Grivner</div>
+<div class="footer">
+  Copyright &copy; {{ currentYear }} Scott Grivner
+  <br />
+  <img src="../src/assets/icon-rounded.png" alt="Logo" style="width:40px; margin-top: 8px; border-radius: 8px;" />
+</div>
   </div>
 </template>
 
@@ -270,7 +273,7 @@ const generateImage = async () => {
   const btn = previewRef.value.querySelector('.generate-btn')
   if (btn) btn.style.visibility = 'hidden'
 const canvas = await html2canvas(previewRef.value, {
-  backgroundColor: isDark.value ? '#2b2b2b' : '#ffffff',
+  backgroundColor: null,
   scale: window.devicePixelRatio * 2, // for extra sharpness
   useCORS: true
 })
