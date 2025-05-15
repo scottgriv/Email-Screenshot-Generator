@@ -143,17 +143,16 @@
         </div>
 
         <!-- Upload EML (hidden file input + styled label) -->
-<div class="form-group">
-  <label class="upload-btn" for="emlUpload">Upload Email</label>
-  <input
-    id="emlUpload"
-    type="file"
-    accept=".eml"
-    @change="onEmlUpload"
-    class="hidden-file-input"
-  />
-</div>
-
+        <div class="form-group">
+          <label class="upload-btn" for="emlUpload">Upload Email</label>
+          <input
+            id="emlUpload"
+            type="file"
+            accept=".eml"
+            @change="onEmlUpload"
+            class="hidden-file-input"
+          />
+        </div>
 
         <button class="btn reset-btn" @click="resetFields">Reset Fields</button>
       </div>
@@ -229,6 +228,14 @@
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
 import html2canvas from 'html2canvas'
+
+const cleanUpHtml = () => {
+  emailFields.value.body = emailFields.value.body
+    .replace(/\\s{2,}/g, ' ')     // collapse multiple spaces
+    .replace(/\\n+/g, '')         // remove newlines
+    .replace(/>\\s+</g, '><')     // remove space between tags
+    .trim()
+}
 
 const emailFields = ref({
   from: '', to: '', cc: '', bcc: '', subject: '', body: ''
@@ -451,6 +458,7 @@ async function onEmlUpload(e) {
   --input-bg:#fff;--input-text:#000;
   --btn-hover: #d1d5db;
   --shadow:0 2px 6px rgba(0,0,0,0.1);
+  --border: #9ca3af;
 }
 .app-container.dark-mode {
   --bg:#121212;--panel-bg:#2b2b2b;--text:#e0e0e0;
